@@ -1,0 +1,1 @@
+ SELECT * FROM students WHERE city !~ '^a.*' AND city !~ '^c.*' AND city !~ '^f.*';
